@@ -1,0 +1,12 @@
+{
+    "projects": {
+        "views": {
+            "root": "views",
+            "output": "public"
+        },
+        "api": {
+            "root": "api",
+            "output": "."
+        }
+    }
+}
