@@ -2,6 +2,9 @@
   "name": "coinmarketcap-app",
   "version": "1.0.0",
   "description": "Coin market app type",
+  "scripts": {
+    "start": "cd API && node server.js"
+  },
   "main": "index.js",
   "author": "",
   "license": "ISC"
