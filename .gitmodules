@@ -1,6 +1,6 @@
 [submodule "client"]
 	path = client
-	url = git@github.com:lorgitx/CoinMarketCap-UI.git
+	url = https://github.com/lorgitx/CoinMarketCap-UI.git
 [submodule "API"]
 	path = API
-	url = git@github.com:lorgitx/CoinMarketCap-API.git
+	url = https://github.com/lorgitx/CoinMarketCap-API.git
