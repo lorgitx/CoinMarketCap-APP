@@ -1,2 +1,4 @@
 echo "Script Runing"
-git submodule update --init --recursive
+cd /API
+echo "Iniciando API"
+node server.js
