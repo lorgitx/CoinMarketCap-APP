@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "workspaces":[
-    "API/src",
+    "API",
     "client"
   ],
   "scripts": {
