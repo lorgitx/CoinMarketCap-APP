@@ -1,0 +1,16 @@
+{
+  "name": "coinmarketcap-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces":[
+    "API",
+    "client"
+  ],
+  "scripts": {
+    "install-all": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
