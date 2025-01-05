@@ -1,6 +1,7 @@
 {
-    "rewrites": [
-      { "source": "/api/(.*)", "destination": "/api/$1" },
-      { "source": "/(.*)", "destination": "/client/views/$1" }
+  "build": {
+    "commands": [
+      "npm install"
     ]
-  } 
+  }
+}
