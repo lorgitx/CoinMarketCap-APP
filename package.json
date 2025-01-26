@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
 "scripts": {
-    "install": "npm run install:api",
-    "install:api": "cd api && npm install",
-    "build": "npm run build:api",
-    "build:api": "cd api && npm run build"
+    "install": "npm run install:API",
+    "install:api": "cd API && npm install",
+    "build": "npm run build:API",
+    "build:api": "cd API && npm run build"
   },
   "workspaces": ["API"],
   "keywords": [],
