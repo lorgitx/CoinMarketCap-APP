@@ -1,17 +1,16 @@
 {
     "builds": [
       { 
-        "src": "API/**/*.js", 
-        "use": "@vercel/node",
-        "config": { "installCommand": "cd API && npm install" }
+        "src": "API/server.js",
+        "use": "@vercel/node"
       },
       { 
-        "src": "client/**/*", 
+        "src": "client/views/**/*", 
         "use": "@vercel/static"
       }
     ],
     "routes": [
-      { "src": "/api/(.*)", "dest": "API/$1" },
+      { "src": "/api/(.*)", "dest": "API/server.js" },
       { "src": "/(.*)", "dest": "client/views/$1" }
     ]
   }
