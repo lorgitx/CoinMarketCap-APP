@@ -2,16 +2,15 @@
   "name": "coinmarketcap-app",
   "version": "1.0.0",
   "main": "index.js",
-  {
-    "private": false,
-    "workspaces": [
-      "API"
-    ],
-    "scripts": {
-      "build": "npm run build --workspace=API"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": ""
-  }
+  "private": false,
+  "workspaces": [
+    "API"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=API"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
