@@ -9,14 +9,14 @@
         "use": "@vercel/static"
       }
     ],
-    "rewrites": [
+    "routes": [
       {
-        "source": "/api/(.*)",
-        "destination": "/API/server.js"
+        "src": "/api/(.*)",
+        "dest": "API/server.js"  
       },
       {
-        "source": "/((?!api).*)",
-        "destination": "/client/views/$1"
+        "src": "/(.*)",
+        "dest": "client/views/$1"
       }
     ]
   }
